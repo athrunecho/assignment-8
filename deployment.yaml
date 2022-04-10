@@ -22,7 +22,7 @@ spec:
       imagePullSecrets:
       - name: my-register
       containers:
-        - name: prometheus-service
+        - name: httpservice
           image: athrunecho/assignment:v2.0
           env:
             - name: log
